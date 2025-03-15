@@ -1,0 +1,1115 @@
+{
+	"version": 1,
+	"allow_edit": true,
+	"plugins": [],
+	"panes": [
+		{
+			"id": "76g0np",
+			"title": "EC",
+			"width": 1,
+			"row": {
+				"2": 1,
+				"3": 1,
+				"5": 1,
+				"7": 1,
+				"8": 1,
+				"9": 1,
+				"10": 1,
+				"12": 1
+			},
+			"col": {
+				"2": 1,
+				"3": 1,
+				"5": 4,
+				"7": 4,
+				"8": 4,
+				"9": 5,
+				"10": 4,
+				"12": 5
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "e5jmgo",
+					"type": "gauge",
+					"settings": {
+						"title": "EC",
+						"value": "#[\"ESP32\"][\"shadow\"][\"EC\"]",
+						"units": "uS/cm",
+						"min_value": 0,
+						"max_value": 2000,
+						"decimal": 0,
+						"human_friendly": true,
+						"rangecolor": [
+							{
+								"from": "",
+								"to": "",
+								"color": "#FFF176"
+							},
+							{
+								"from": "",
+								"to": "",
+								"color": "#FFEB3B"
+							},
+							{
+								"from": "",
+								"to": "",
+								"color": "#FBC02D"
+							}
+						],
+						"rangeonpercent": false,
+						"id": "e5jmgo"
+					}
+				}
+			]
+		},
+		{
+			"id": "7hf979",
+			"title": "pH Setting",
+			"width": 1,
+			"row": {
+				"2": 7,
+				"3": 7,
+				"4": 1,
+				"5": 7,
+				"6": 1,
+				"7": 1,
+				"8": 1,
+				"9": 1,
+				"10": 1,
+				"12": 1
+			},
+			"col": {
+				"2": 1,
+				"3": 2,
+				"4": 2,
+				"5": 3,
+				"6": 2,
+				"7": 3,
+				"8": 5,
+				"9": 4,
+				"10": 5,
+				"12": 4
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "rvxlwc",
+					"type": "gauge",
+					"settings": {
+						"title": "pH",
+						"value": "#[\"ESP32\"][\"shadow\"][\"PH\"]",
+						"units": "",
+						"min_value": 0,
+						"max_value": 14,
+						"decimal": 2,
+						"human_friendly": true,
+						"rangecolor": [
+							{
+								"from": "0",
+								"to": "1",
+								"color": "#D50000"
+							},
+							{
+								"from": "1",
+								"to": "2",
+								"color": "#F44336"
+							},
+							{
+								"from": "2",
+								"to": "3",
+								"color": "#F57F17"
+							},
+							{
+								"from": "3",
+								"to": "4",
+								"color": "#FFD600"
+							},
+							{
+								"from": "4",
+								"to": "5",
+								"color": "#AEEA00"
+							},
+							{
+								"from": "5",
+								"to": "6",
+								"color": "#4CAF50"
+							},
+							{
+								"from": "6",
+								"to": "7",
+								"color": "#1B5E20"
+							},
+							{
+								"from": "7",
+								"to": "8",
+								"color": "#00796B"
+							},
+							{
+								"from": "8",
+								"to": "9",
+								"color": "#00BFA5"
+							},
+							{
+								"from": "9",
+								"to": "10",
+								"color": "#0288D1"
+							},
+							{
+								"from": "10",
+								"to": "11",
+								"color": "#01579B"
+							},
+							{
+								"from": "11",
+								"to": "12",
+								"color": "#0D47A1"
+							},
+							{
+								"from": "12",
+								"to": "13",
+								"color": "#9C27B0"
+							},
+							{
+								"from": "13",
+								"to": "14",
+								"color": "#4A148C"
+							}
+						],
+						"rangeonpercent": false,
+						"id": "rvxlwc"
+					}
+				}
+			]
+		},
+		{
+			"id": "5gbdw5",
+			"title": "Tank",
+			"width": 1,
+			"row": {
+				"2": 21,
+				"3": 1,
+				"5": 1,
+				"7": 1,
+				"8": 1,
+				"9": 1,
+				"10": 1,
+				"12": 1
+			},
+			"col": {
+				"2": 1,
+				"3": 2,
+				"5": 2,
+				"7": 2,
+				"8": 3,
+				"9": 2,
+				"10": 2,
+				"12": 2
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "hxqplx",
+					"type": "gauge",
+					"settings": {
+						"title": "Water in Tank",
+						"value": "15",
+						"units": "L",
+						"min_value": 0,
+						"max_value": 20,
+						"decimal": 3,
+						"human_friendly": true,
+						"rangecolor": [
+							{
+								"from": "",
+								"to": "",
+								"color": "#BBDEFB"
+							},
+							{
+								"from": "",
+								"to": "",
+								"color": "#64B5F6"
+							},
+							{
+								"from": "",
+								"to": "",
+								"color": "#2196F3"
+							}
+						],
+						"rangeonpercent": false,
+						"id": "hxqplx"
+					}
+				}
+			]
+		},
+		{
+			"id": "vqx8h2",
+			"title": "LIGHT",
+			"width": 1,
+			"row": {
+				"2": 47,
+				"3": 7,
+				"5": 1,
+				"7": 1,
+				"8": 1,
+				"9": 1,
+				"10": 1,
+				"12": 1
+			},
+			"col": {
+				"2": 1,
+				"3": 1,
+				"5": 5,
+				"7": 5,
+				"8": 1,
+				"9": 1,
+				"10": 1,
+				"12": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "cjx4iw",
+					"type": "gauge",
+					"settings": {
+						"title": "PPFD",
+						"value": "160",
+						"units": "μmol/s/m2",
+						"min_value": 0,
+						"max_value": 1000,
+						"decimal": 3,
+						"human_friendly": true,
+						"rangecolor": [
+							{
+								"from": "",
+								"to": "",
+								"color": "#FFCDD2"
+							},
+							{
+								"from": "",
+								"to": "",
+								"color": "#BA68C8"
+							},
+							{
+								"from": "",
+								"to": "",
+								"color": "#9C27B0"
+							}
+						],
+						"rangeonpercent": false,
+						"id": "cjx4iw"
+					}
+				}
+			]
+		},
+		{
+			"id": "592js6",
+			"title": "Aquaruim",
+			"width": 1,
+			"row": {
+				"2": 55,
+				"3": 1,
+				"5": 1,
+				"7": 1,
+				"8": 1,
+				"9": 1,
+				"10": 1,
+				"12": 1
+			},
+			"col": {
+				"2": 2,
+				"3": 3,
+				"5": 1,
+				"7": 1,
+				"8": 2,
+				"9": 3,
+				"10": 3,
+				"12": 3
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "et273w",
+					"type": "gauge",
+					"settings": {
+						"title": "Water in aquarium",
+						"value": "45",
+						"units": "L",
+						"min_value": 0,
+						"max_value": 60,
+						"decimal": 3,
+						"human_friendly": true,
+						"rangecolor": [
+							{
+								"from": "",
+								"to": "",
+								"color": "#B3E5FC"
+							},
+							{
+								"from": "",
+								"to": "",
+								"color": "#4FC3F7"
+							},
+							{
+								"from": "",
+								"to": "",
+								"color": "#64B5F6"
+							}
+						],
+						"rangeonpercent": false,
+						"id": "et273w"
+					}
+				}
+			]
+		},
+		{
+			"id": "l9mv8t",
+			"title": "Temperature",
+			"width": 1,
+			"row": {
+				"2": 1,
+				"8": 7,
+				"9": 1,
+				"12": 1
+			},
+			"col": {
+				"2": 2,
+				"8": 6,
+				"9": 6,
+				"12": 6
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "zo8qht",
+					"type": "gauge",
+					"settings": {
+						"title": "TEMPERATURE",
+						"value": "#[\"ESP32\"][\"shadow\"][\"Temp\"]",
+						"units": "C",
+						"min_value": 0,
+						"max_value": 100,
+						"decimal": 3,
+						"human_friendly": true,
+						"rangecolor": [
+							{
+								"from": "",
+								"to": "",
+								"color": "#E57373"
+							},
+							{
+								"from": "",
+								"to": "",
+								"color": "#FFCDD2"
+							}
+						],
+						"rangeonpercent": false,
+						"id": "zo8qht"
+					}
+				}
+			]
+		},
+		{
+			"id": "o2tppc",
+			"title": "pH Down",
+			"width": 1,
+			"row": {
+				"2": 7,
+				"3": 13,
+				"5": 7,
+				"7": 11,
+				"8": 7,
+				"9": 7,
+				"10": 7,
+				"12": 7
+			},
+			"col": {
+				"2": 2,
+				"3": 3,
+				"5": 4,
+				"7": 3,
+				"8": 6,
+				"9": 5,
+				"10": 6,
+				"12": 4
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "fu676w",
+					"type": "indicator",
+					"settings": {
+						"title": "Status pH Down",
+						"oncolor": "#E1BEE7",
+						"var_oncolor": "#89ffd4",
+						"offcolor": "#212121",
+						"value": "#[\"ESP32\"][\"shadow\"][\"pH_Down\"]",
+						"blinking": "",
+						"blinkfrequency": "1",
+						"on_text": "ON",
+						"off_text": "OFF",
+						"id": "fu676w"
+					}
+				},
+				{
+					"id": "fwchcj",
+					"type": "Button",
+					"settings": {
+						"caption": "Turn ON",
+						"label": "",
+						"color": "white",
+						"onClick": "#[\"ESP32\"].writeShadow(\"pH_Down\",1)",
+						"id": "fwchcj"
+					}
+				},
+				{
+					"id": "cy6d3h",
+					"type": "Button",
+					"settings": {
+						"caption": "Turn OFF",
+						"label": "",
+						"color": "grey",
+						"onClick": "#[\"ESP32\"].writeShadow(\"pH_Down\",0)",
+						"id": "cy6d3h"
+					}
+				}
+			]
+		},
+		{
+			"id": "359eh8",
+			"title": "PUMP IN",
+			"width": 1,
+			"row": {
+				"2": 15,
+				"3": 17,
+				"5": 13,
+				"7": 7,
+				"8": 7,
+				"9": 7,
+				"10": 7,
+				"12": 7
+			},
+			"col": {
+				"2": 2,
+				"3": 2,
+				"5": 2,
+				"7": 1,
+				"8": 2,
+				"9": 2,
+				"10": 2,
+				"12": 2
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "3zt4ql",
+					"type": "indicator",
+					"settings": {
+						"title": "Status Pump IN",
+						"oncolor": "#03A9F4",
+						"var_oncolor": "",
+						"offcolor": "#212121",
+						"value": "#[\"ESP32\"][\"shadow\"][\"P_IN\"]",
+						"blinking": "",
+						"blinkfrequency": "1",
+						"on_text": "ON",
+						"off_text": "OFF",
+						"id": "3zt4ql"
+					}
+				},
+				{
+					"id": "xxlbtz",
+					"type": "Button",
+					"settings": {
+						"caption": "Turn ON",
+						"label": "",
+						"color": "white",
+						"onClick": "#[\"ESP32\"].writeShadow(\"P_IN\",1)",
+						"id": "xxlbtz"
+					}
+				},
+				{
+					"id": "zc5xkr",
+					"type": "Button",
+					"settings": {
+						"caption": "Turn OFF",
+						"label": "",
+						"color": "grey",
+						"onClick": "#[\"ESP32\"].writeShadow(\"P_IN\",0)",
+						"id": "zc5xkr"
+					}
+				}
+			]
+		},
+		{
+			"id": "w659w3",
+			"title": "LIGHT",
+			"width": 1,
+			"row": {
+				"2": 61,
+				"3": 17,
+				"4": 1,
+				"5": 11,
+				"6": 1,
+				"7": 9,
+				"8": 7,
+				"9": 7,
+				"10": 7,
+				"12": 7
+			},
+			"col": {
+				"2": 1,
+				"3": 1,
+				"4": 1,
+				"5": 5,
+				"6": 1,
+				"7": 5,
+				"8": 1,
+				"9": 1,
+				"10": 1,
+				"12": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "pnuazl",
+					"type": "indicator",
+					"settings": {
+						"title": "Status LIGHT",
+						"oncolor": "#FFCDD2",
+						"var_oncolor": "#e583ff",
+						"offcolor": "#212121",
+						"value": "#[\"ESP32\"][\"shadow\"][\"light\"]",
+						"blinking": "",
+						"blinkfrequency": "1",
+						"on_text": "ON",
+						"off_text": "OFF",
+						"id": "pnuazl"
+					}
+				},
+				{
+					"id": "1rr2z0",
+					"type": "Button",
+					"settings": {
+						"caption": "Turn ON",
+						"label": "",
+						"color": "white",
+						"onClick": "#[\"ESP32\"].writeShadow(\"light\",1)",
+						"id": "1rr2z0"
+					}
+				},
+				{
+					"id": "bfnsqy",
+					"type": "Button",
+					"settings": {
+						"caption": "Turn OFF",
+						"label": "",
+						"color": "grey",
+						"onClick": "#[\"ESP32\"].writeShadow(\"light\",0)",
+						"id": "bfnsqy"
+					}
+				}
+			]
+		},
+		{
+			"id": "97fua4",
+			"title": "FILTER",
+			"width": 1,
+			"row": {
+				"9": 7,
+				"12": 7
+			},
+			"col": {
+				"9": 3,
+				"12": 3
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "4i649h",
+					"type": "indicator",
+					"settings": {
+						"title": "Status Filter",
+						"oncolor": "#64B5F6",
+						"var_oncolor": "",
+						"offcolor": "#212121",
+						"value": "#[\"ESP32\"][\"shadow\"][\"filter\"]",
+						"blinking": "",
+						"blinkfrequency": "1",
+						"on_text": "ON",
+						"off_text": "OFF",
+						"id": "4i649h"
+					}
+				},
+				{
+					"id": "u0vzb1",
+					"type": "Button",
+					"settings": {
+						"caption": "Turn ON",
+						"label": "",
+						"color": "white",
+						"onClick": "#[\"ESP32\"].writeShadow(\"filter\",1)",
+						"id": "u0vzb1"
+					}
+				},
+				{
+					"id": "yfc1kk",
+					"type": "Button",
+					"settings": {
+						"caption": "Turn OFF",
+						"label": "",
+						"color": "grey",
+						"onClick": "#[\"ESP32\"].writeShadow(\"filter\",0)",
+						"id": "yfc1kk"
+					}
+				}
+			]
+		},
+		{
+			"id": "l02hm2",
+			"title": "FAN",
+			"width": 1,
+			"row": {
+				"9": 7,
+				"12": 7
+			},
+			"col": {
+				"9": 6,
+				"12": 6
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "adw7zc",
+					"type": "indicator",
+					"settings": {
+						"title": "FAN",
+						"oncolor": "#FFD600",
+						"var_oncolor": "#fdb9f8",
+						"offcolor": "#212121",
+						"value": "#[\"ESP32\"][\"shadow\"][\"FAN\"]",
+						"blinking": "",
+						"blinkfrequency": "1",
+						"on_text": "ON",
+						"off_text": "OFF",
+						"id": "adw7zc"
+					}
+				},
+				{
+					"id": "p5b401",
+					"type": "Button",
+					"settings": {
+						"caption": "Turn ON",
+						"label": "",
+						"color": "white",
+						"onClick": "#[\"ESP32\"].writeShadow(\"FAN\",1)",
+						"id": "p5b401"
+					}
+				},
+				{
+					"id": "bh0gg1",
+					"type": "Button",
+					"settings": {
+						"caption": "Turn OFF",
+						"label": "",
+						"color": "grey",
+						"onClick": "#[\"ESP32\"].writeShadow(\"FAN\",0)",
+						"id": "bh0gg1"
+					}
+				}
+			]
+		},
+		{
+			"id": "vljate",
+			"title": "pH UP",
+			"width": 1,
+			"row": {
+				"9": 7,
+				"12": 7
+			},
+			"col": {
+				"9": 4,
+				"12": 5
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "epi1hy",
+					"type": "indicator",
+					"settings": {
+						"title": "Status pH UP",
+						"oncolor": "#FFEB3B",
+						"var_oncolor": "",
+						"offcolor": "#212121",
+						"value": "#[\"ESP32\"][\"shadow\"][\"pH_Up\"]",
+						"blinking": "",
+						"blinkfrequency": "1",
+						"on_text": "ON",
+						"off_text": "OFF",
+						"id": "epi1hy"
+					}
+				},
+				{
+					"id": "xvejbx",
+					"type": "Button",
+					"settings": {
+						"caption": "Turn ON",
+						"label": "",
+						"color": "white",
+						"onClick": "#[\"ESP32\"].writeShadow(\"pH_Up\",1)",
+						"id": "xvejbx"
+					}
+				},
+				{
+					"id": "gj1wla",
+					"type": "Button",
+					"settings": {
+						"caption": "Turn OFF",
+						"label": "",
+						"color": "grey",
+						"onClick": "#[\"ESP32\"].writeShadow(\"pH_Up\",0)",
+						"id": "gj1wla"
+					}
+				}
+			]
+		},
+		{
+			"id": "xyxnl4",
+			"title": "LIGHT Setting",
+			"width": 1,
+			"row": {
+				"2": 53,
+				"3": 25,
+				"5": 7,
+				"7": 15,
+				"8": 7,
+				"9": 15,
+				"10": 7,
+				"12": 15
+			},
+			"col": {
+				"2": 1,
+				"3": 1,
+				"5": 1,
+				"7": 1,
+				"8": 4,
+				"9": 1,
+				"10": 4,
+				"12": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "j108fj",
+					"type": "Slider",
+					"settings": {
+						"caption": "Set : PPFD",
+						"color": "white",
+						"showvalue": 1,
+						"min": 0,
+						"max": "1000",
+						"step": 1,
+						"sensitivity": 200,
+						"initialvalue": "0",
+						"autovaluesource": "#[\"ESP32\"][\"shadow\"][\"Light_min\"]",
+						"onSlide": "",
+						"onStop": "#[\"ESP32\"].publishMsg(\"Light_min\",value)+#[\"ESP32\"].writeShadow(\"Light_min\",value)",
+						"id": "j108fj"
+					}
+				},
+				{
+					"id": "p2nhym",
+					"type": "Slider",
+					"settings": {
+						"caption": "Tolerance",
+						"color": "white",
+						"showvalue": 1,
+						"min": 0,
+						"max": "200",
+						"step": 1,
+						"sensitivity": 200,
+						"initialvalue": "0",
+						"autovaluesource": "#[\"ESP32\"][\"shadow\"][\"Light_Tr\"]",
+						"onStop": "#[\"ESP32\"].publishMsg(\"Light_Tr\",value)+#[\"ESP32\"].writeShadow(\"Light_Tr\",value)",
+						"id": "p2nhym"
+					}
+				}
+			]
+		},
+		{
+			"id": "3n6fmv",
+			"title": "Water Level Setting",
+			"width": 1,
+			"row": {
+				"9": 15,
+				"12": 15
+			},
+			"col": {
+				"9": 2,
+				"12": 2
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "l0r015",
+					"type": "Slider",
+					"settings": {
+						"caption": "Set :Water level",
+						"color": "blue",
+						"showvalue": 1,
+						"min": 0,
+						"max": "60",
+						"step": 1,
+						"sensitivity": 200,
+						"initialvalue": "0",
+						"autovaluesource": "#[\"ESP32\"][\"shadow\"][\"L_min\"]",
+						"onSlide": "",
+						"onStop": "#[\"ESP32\"].publishMsg(\"L_min\",value)+#[\"ESP32\"].writeShadow(\"L_min\",value)",
+						"id": "l0r015"
+					}
+				},
+				{
+					"id": "my97zz",
+					"type": "Slider",
+					"settings": {
+						"caption": "Tolerance",
+						"color": "blue",
+						"showvalue": 1,
+						"min": 0,
+						"max": "10",
+						"step": "0.5",
+						"sensitivity": 200,
+						"initialvalue": "0",
+						"autovaluesource": "#[\"ESP32\"][\"shadow\"][\"L_Tr\"]",
+						"onStop": "#[\"ESP32\"].publishMsg(\"L_Tr\",value)+#[\"ESP32\"].writeShadow(\"L_Tr\",value)",
+						"id": "my97zz"
+					}
+				}
+			]
+		},
+		{
+			"id": "5cmea2",
+			"width": 1,
+			"row": {
+				"9": 15,
+				"12": 15
+			},
+			"col": {
+				"9": 5,
+				"12": 5
+			},
+			"col_width": 2,
+			"widgets": [
+				{
+					"id": "51mtxx",
+					"type": "html",
+					"settings": {
+						"height": 2,
+						"id": "51mtxx"
+					}
+				}
+			]
+		},
+		{
+			"id": "vf290b",
+			"title": "Temp Setting",
+			"width": 1,
+			"row": {
+				"9": 15,
+				"10": 15,
+				"12": 15
+			},
+			"col": {
+				"9": 4,
+				"10": 4,
+				"12": 4
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "rn87c8",
+					"type": "Slider",
+					"settings": {
+						"caption": "Set : Temp",
+						"color": "grey",
+						"showvalue": true,
+						"min": 0,
+						"max": "100",
+						"step": "0.1",
+						"sensitivity": 200,
+						"initialvalue": "0",
+						"autovaluesource": "#[\"ESP32\"][\"shadow\"][\"Temp_min\"]",
+						"onSlide": "",
+						"onStop": "#[\"ESP32\"].publishMsg(\"Temp_min\",value)+#[\"ESP32\"].writeShadow(\"Temp_min\",value)",
+						"id": "rn87c8"
+					}
+				},
+				{
+					"id": "osr1a6",
+					"type": "Slider",
+					"settings": {
+						"caption": "Tolerance",
+						"color": "grey",
+						"showvalue": 1,
+						"min": 0,
+						"max": "10",
+						"step": "0.5",
+						"sensitivity": 200,
+						"initialvalue": "0",
+						"autovaluesource": "#[\"ESP32\"][\"shadow\"][\"Temp_Tr\"]",
+						"onSlide": "",
+						"onStop": "#[\"ESP32\"].publishMsg(\"Temp_Tr\",value)+#[\"ESP32\"].writeShadow(\"Temp_Tr\",value)",
+						"id": "osr1a6"
+					}
+				}
+			]
+		},
+		{
+			"id": "nwh1d5",
+			"title": "pH Setting",
+			"width": 1,
+			"row": {
+				"9": 15,
+				"10": 15,
+				"12": 15
+			},
+			"col": {
+				"9": 3,
+				"10": 3,
+				"12": 3
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"id": "4lp86b",
+					"type": "Slider",
+					"settings": {
+						"caption": "Set pH",
+						"color": "yellow",
+						"showvalue": 1,
+						"min": 0,
+						"max": "14",
+						"step": "0.1",
+						"sensitivity": 200,
+						"initialvalue": "0",
+						"autovaluesource": "#[\"ESP32\"][\"shadow\"][\"pH_Set\"]",
+						"onSlide": "",
+						"onStop": "#[\"ESP32\"].publishMsg(\"pH_Set\",value)+#[\"ESP32\"].writeShadow(\"pH_Set\",value)",
+						"id": "4lp86b"
+					}
+				},
+				{
+					"id": "il9iuc",
+					"type": "Slider",
+					"settings": {
+						"caption": "Tolerance",
+						"color": "yellow",
+						"showvalue": 1,
+						"min": 0,
+						"max": "3",
+						"step": "0.1",
+						"sensitivity": 200,
+						"initialvalue": "0",
+						"autovaluesource": "#[\"ESP32\"][\"shadow\"][\"pH_Tr\"]",
+						"onSlide": "",
+						"onStop": "#[\"ESP32\"].publishMsg(\"pH_Tr\",value)+#[\"ESP32\"].writeShadow(\"pH_Tr\",value)",
+						"id": "il9iuc"
+					}
+				}
+			]
+		},
+		{
+			"id": "m0xmv6",
+			"title": "Graphs",
+			"width": 1,
+			"row": {
+				"2": 27,
+				"5": 21,
+				"7": 21,
+				"8": 15,
+				"9": 21,
+				"10": 15,
+				"12": 21
+			},
+			"col": {
+				"2": 1,
+				"5": 1,
+				"7": 1,
+				"8": 1,
+				"9": 1,
+				"10": 1,
+				"12": 1
+			},
+			"col_width": 6,
+			"widgets": [
+				{
+					"id": "o9c0h5",
+					"type": "Chart",
+					"settings": {
+						"title": "Electrical Conductivity",
+						"datasource": "#[\"ESP32\"][\"feed\"]",
+						"filter": "EC",
+						"query_range_duration": "3",
+						"query_range_unit": "minute",
+						"stricttimerange": false,
+						"mode": "autoslide",
+						"type": "line",
+						"xaxis": "Time",
+						"yaxis": "uS/cm",
+						"yzero": true,
+						"marker": false,
+						"colors": "#00BFA5",
+						"totalyaxis": 2,
+						"height_block": 3,
+						"id": "o9c0h5"
+					}
+				},
+				{
+					"id": "vkdv1z",
+					"type": "Chart",
+					"settings": {
+						"title": "pH in water",
+						"datasource": "#[\"ESP32\"][\"feed\"]",
+						"filter": "PH",
+						"query_range_duration": "3",
+						"query_range_unit": "minute",
+						"stricttimerange": false,
+						"mode": "autoslide",
+						"type": "line",
+						"xaxis": "Time",
+						"yaxis": "pH",
+						"yzero": true,
+						"marker": false,
+						"colors": "#BA68C8",
+						"totalyaxis": 2,
+						"height_block": 3,
+						"id": "vkdv1z"
+					}
+				},
+				{
+					"id": "8cpjxd",
+					"type": "Chart",
+					"settings": {
+						"title": "Temperature",
+						"datasource": "#[\"ESP32\"][\"feed\"]",
+						"filter": "Temp",
+						"query_range_duration": "30",
+						"query_range_unit": "minute",
+						"stricttimerange": false,
+						"mode": "autoslide",
+						"type": "line",
+						"xaxis": "Time",
+						"yaxis": "Celsius",
+						"marker": false,
+						"colors": "#4FC3F7",
+						"totalyaxis": 2,
+						"height_block": 3,
+						"id": "8cpjxd"
+					}
+				}
+			]
+		}
+	],
+	"datasources": [],
+	"columns": 16
+}
